@@ -8,7 +8,7 @@ TOKEN = "512426147:AAGBYAM9R-kL7X8Q5R9sZgG58pVt5rR2EsI"
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 bot=HandlerBot(TOKEN, URL)
-
+bot.train("chatterbot.corpus.english")
 def main():
     last_update_id = None
     #last_textchat = (None, None)
