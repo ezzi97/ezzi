@@ -1,6 +1,9 @@
 import time
 from sqlalchemy import true, false
 
+port = int(os.environ.get("PORT", 5000))
+app.run(debug=True, host='0.0.0.0', port=port)
+
 from HandlerBot import HandlerBot
 
 TOKEN = "512426147:AAGBYAM9R-kL7X8Q5R9sZgG58pVt5rR2EsI"
