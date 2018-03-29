@@ -2,8 +2,8 @@ import time
 import os
 from sqlalchemy import true, false
 
-port = int(os.environ.get("PORT", 5000))
-app.run(debug=True, host='0.0.0.0', port=port)
+os.getenv('PORT','8080')
+os.getenv('IP','0.0.0.0')
 
 from HandlerBot import HandlerBot
 
