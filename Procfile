@@ -1,1 +1,1 @@
-web: python /venv/starter.py
+web: python starter.py
