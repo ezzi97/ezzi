@@ -1,1 +1,1 @@
-python venv/starter.py
+python starter.py
