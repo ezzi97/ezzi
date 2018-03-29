@@ -8,7 +8,7 @@ class HandlerBot(ChatBot):
     def __init__(self, TOKEN, URL):
         self.TOKEN=TOKEN
         self.URL=URL
-        super(HandlerBot, self).__init__('Ron Obvious', trainer='chatterbot.trainers.ListTrainer')
+        super(HandlerBot, self).__init__('ezzi', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
 
     def get_url(self, url):
         response = requests.get(url)
