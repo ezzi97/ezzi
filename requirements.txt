@@ -23,4 +23,4 @@ six==1.10.0
 SQLAlchemy==1.2.4
 tinydb==3.2.1
 tinydb-smartcache==1.0.2
-urllib3==1.22
+urllib3==1.26.5
